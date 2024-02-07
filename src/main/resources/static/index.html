@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Your first Spring application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<form action="/sum" method="GET" id="calculateForm">
+    <div>
+        <label for="num1" >tal 1 </label>
+        <input name="number1" id="num1">
+
+        <label for="operator">operation:</label>
+        <select name="operation" id="operator">
+        <option value="+">+</option>
+        <option value="*">*</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        </select>
+
+        <label for="num2">tal 2</label>
+        <input name="number2" id="num2">
+        <button>Press for result</button>
+    </div>
+</form>
+</body>
+</html>
